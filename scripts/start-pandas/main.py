@@ -36,3 +36,9 @@ logging.info('-----------------------------\n')
 print(frame.describe())
 logging.info('-----------------------------\n')
 print(frame.sort_values(by='counters'))
+
+# exportacao para xlsx
+#frame.to_excel("exportfile.xlsx")
+
+# exportacao para json
+frame.to_json("exportfile.json")
